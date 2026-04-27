@@ -1,0 +1,17 @@
+Starting Model Training Phase...
+Parallel processing enabled with 4 cores.
+
+Step 2: Training Logistic Regression (glmnet)...
+Strategy: 80/20 Train-Test split, 5-fold Cross-Validation (repeated 100x)
+
+Step 3: Training Random Forest (rf)...
+
+--- Training Results Summary ---
+GLMNET Performance (Internal CV AUC): 0.6248438 
+GLMNET Performance (Test Set AUC): 0.6342105 
+
+RF Performance (Internal CV AUC): 0.6592371 
+RF Performance (Test Set AUC): 0.7118421 
+
+Success: Trained models saved to: /src/results/model_results.rds 
+Model Training Phase Complete.

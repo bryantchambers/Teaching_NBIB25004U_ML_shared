@@ -1,0 +1,13 @@
+Starting Data Preparation Phase...
+Using random seed: 42 
+Step 1: Cleaning column names...
+Step 2: Ensuring numeric data types for features...
+Step 3-8: Running mikropml::preprocess_data()...
+
+--- Preprocessing Summary ---
+Original feature count: 10 
+Final feature count: 10 
+Features removed due to low variance or correlation: 0 
+
+Success: Cleaned data and results object saved to: /src/results/cleaned_data.rds 
+Data Preparation Phase Complete.
